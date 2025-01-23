@@ -75,8 +75,6 @@ spec:
       params:
       - name: IMAGE
         value: "$(params.build-image)"
-      - name: args
-        value: "-v --with-spec --spec-color"
       runAfter:
         - tests
         - lint
